@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter';
+
+}
+
+
+#container{ 
+    height: 70%;
+    width: 100%;
+    background-color:#FFCD9E;
+    display: flex;
+    
+
+}
+#textdiv{
+    margin: 70px 0px 0px 180px;
+    width: 50%;
+    height: 400px;
+
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 6px;
+
+  }
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+
+#imgdiv{
+    margin-top: 66.4px;
+    margin-right: 210px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: none;
+    
+}
+
+#container2{
+    height: 30%;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftdiv{   
+    margin-top: 36px;
+    margin-left: 191px;
+    color: white;
+        
+}
+
+#rightdiv{
+    margin-top: 36px;
+    margin-right: 220px;
+    color: white;
+}
+
+.footer_ele{
+    margin-top: 6px;
+}
+.footer_ele_right{
+    direction: rtl;
+}
+
